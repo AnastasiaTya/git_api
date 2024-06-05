@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Github api autocomplete</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="tittle">Github api</h1>
+        <input class="search" type='text' placeholder="Search repositories">
+        <ul class="search__result">
+        </ul>
+        <div class="error">
+            <span class="error__text"></span>
+        </div>
+        <div class="card">
+            <ul class="card__list">
+            </ul>
+                <template id="tmpl">
+                    <li class="card__item">
+                        <div class="card__info-wrapper">
+                            <div class="card__name">
+                                <span class="name__title title">Name:</span>
+                                <span class="name__info"></span>
+                            </div>
+                            <div class="card__owner">
+                                <span class="owner__title title">Owner:</span>
+                                <span class="owner__info"></span>
+                            </div>
+                            <div class="card__stars">
+                                <span class="stars__title title">Stars:</span>
+                                <span class="stars__info"></span>
+                            </div>
+                        </div>
+                        <div class="card__button">
+                            <button class="button">
+                                <div class="button__img"></div>
+                            </button>
+                        </div>
+                    </li>
+                </template>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
