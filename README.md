@@ -1,1 +1,1 @@
-[Ссылка на Github pages.](https://anastasiatya.github.io/WebCore-5.1/)
+[Ссылка на Github pages.](https://anastasiatya.github.io/git_api/)
